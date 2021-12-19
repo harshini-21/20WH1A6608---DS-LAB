@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-int ch, head, ele, position;
+int ch, head, ele, tail, current, temp, position;
 while(1){
   printf("1 - Create\n, 2 - insert at begin\n, 3 - insert at end\n, 4 - insert at position\n, 5 - delete at begin\n, 6 - delete at end\n, 7 - delete at position\n, 8 - traversal\n");
   scanf("%d",&ch);
